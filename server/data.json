@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Person1",
+		"position": "Software Eng",
+		"address": "Nairobi",
+		"phone": "0712121212",
+		"foods": {
+			"likes": ["fish", "chips"],
+			"dislikes": ["pork"]
+		}
+	},
+	{
+		"name": "Person2",
+		"position": "Web Dev",
+		"address": "Mombasa",
+		"phone": "0711223344",
+		"foods": {
+			"likes": ["checken", "eggs"],
+			"dislikes": ["bread"]
+		}
+	},
+	{
+		"name": "Person3",
+		"position": "Marketer",
+		"address": "Nakuru",
+		"phone": "0711121314",
+		"foods": {
+			"likes": ["peas", "beans"],
+			"dislikes": ["weed"]
+		}
+	}
+]
