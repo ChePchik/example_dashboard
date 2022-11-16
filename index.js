@@ -20,15 +20,6 @@ app.use((req, res) => {
 	res.status(500).send("Вы сломали сервер!");
 });
 
-// Обработчик ошибок
-app.use((err, req, res) => {
-	if (error instanceof ForbiddenError) {
-		return res.status(403).send({
-			status: "forbidden",
-			message: error.message,
-		});
-	}
-});
 //Go the SERVERs
 app.listen(port, () => {
 	console.log("\x1b[35m%s\x1b[0m", `The server is running on the port ${port}`);
